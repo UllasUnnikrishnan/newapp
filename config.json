@@ -59,6 +59,18 @@
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
             "required": true
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
         }
     ],
     "capabilities": {
@@ -67,11 +79,11 @@
             "enabled": false
         },
         "maps": {
-            "value": "",
-            "enabled": false
+            "value": "jkhkjhklhlkh",
+            "enabled": true
         },
         "mapsIos": {
-            "enabled": false
+            "enabled": true
         },
         "pushNotifications": {
             "enabled": false
@@ -92,7 +104,7 @@
             "enabled": false
         }
     },
-    "appVersion": "0.0.1",
+    "appVersion": "0.0.2",
     "buildNumber": 1,
     "runtimeUrl": "http://192.168.29.19:8080"
 }
