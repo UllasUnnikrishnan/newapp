@@ -104,7 +104,7 @@
             "enabled": false
         }
     },
-    "appVersion": "0.0.2",
+    "appVersion": "0.0.3",
     "buildNumber": 1,
     "runtimeUrl": "http://192.168.29.19:8080"
 }
